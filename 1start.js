@@ -1,0 +1,97 @@
+console.log("yash");
+console.log("I love playing");
+
+
+ let Name = ("yash Srivastav");
+console.log(Name) ;
+
+ let age = 25;
+console.log(age);
+
+let follow = true;
+console.log(follow);
+
+Follow = false;
+console.log(Follow);
+
+// we will write the name of the variables in (camel case), where  first letter is small and secind is big
+ let isFollow = ("vada pav")
+console.log(isFollow);
+
+
+
+var myName = 30;
+var myName = 40;
+var myName = 64;
+console.log(myName);
+
+// let age = 18;
+// let age = 20;   here using let for same variable name show an error , beacuse we cannot 
+ 
+let Age = 19;
+Age = 40;
+Age = 50;
+console.log(Age);
+
+
+// in const neither you can  write const for same variabe  two times nor  you can update 
+const aagge = 20;
+// aagge = 40;
+console.log(aagge);
+
+
+let x;
+
+
+// non-primitive data types//
+
+//----- objects------//
+const students={
+    fullName :"yash Srivastav",
+    age : 21,
+    cgpa :8.9,
+    ispass :true
+};
+console.log(students);
+students["fullName"] = "nitin verma";
+students["age"] = 24;
+console.log(students);
+
+
+
+// write node and file name for run in terminal (node 1start.JS) -- no need to create html file.                                             
+
+/*
+    dont use (var) because of  issue in block scope and functional scope
+*/
+
+
+
+let accountpassword = "2205555"
+let accountEmail = "yash@1234.com"
+account =  "Jaipur"  // this is also valid but not preferrable.
+
+// if say i want to print all three , so intead of writing console.log three times i use 
+
+console.table([accountEmail,accountpassword,account]);
+
+
+
+
+//alert(3+3); // we are using nodejs , not browser.
+
+
+
+//primitive  data types 
+
+// number =>2 to power 53
+// bigint
+// string  let s ="efwf"
+// boolean =>true/false
+// null =>standalone
+   let state = null;
+// undefined
+// symbol =>unique
+
+
+console.log(typeof "qcib")
