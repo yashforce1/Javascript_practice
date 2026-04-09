@@ -94,4 +94,35 @@ console.table([accountEmail,accountpassword,account]);
 // symbol =>unique
 
 
-console.log(typeof "qcib")
+console.log(typeof 889)
+
+
+// conversions
+
+let score = "45"
+// two methods 
+console.log(typeof score);
+console.log(typeof(score));
+
+let value = Number(score)
+console.log(value)
+
+
+// but say 
+
+let marks = "4525qhiq"
+let total = Number(marks);
+console.log(typeof total)  // here u will get output as number but it is basically NaN 
+console.log(total)
+
+
+
+// boolean conversion
+let check = "";
+let boolcheck = Boolean(check)
+console.log(boolcheck)
+
+// 1 => true
+// 0 => false
+// "" => false
+// "eqf" , "   " => true
