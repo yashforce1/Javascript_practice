@@ -59,22 +59,22 @@ console.log(len.slice(4,8));
 console.log(word.slice(4,8));
 
 
-//  let len1 = "yash";
-//  let len2 = "srivastav";
-//  let final = len2.concat(len1);
-//  console.log(final);
+ let len1 = "yash";
+ let len2 = "srivastav";
+ let final = len2.concat(len1);
+ console.log(final);
 
 
  let str = "hello";
-
  console.log(str.replace('lo','p'));
  console.log(str.charAt(1));
 
- const game = new String('yashSri-vas-tav')
 
+ const game = new String('yashSri-vas-tav')
  console.log(game.replace('tav','ava'))
  console.log(game.includes('yashS'))
  console.log(game.split('-'))
+
 
 //  if any thing is added with the string it is collectivvely concatenated in string
 // ex- console.log('Yash'+125)   =>Yash125 
